@@ -7,17 +7,19 @@
   margin-top:60px; 
 }
 
+
+
 .display {
   position: relative;
-  width: 350px;
   aspect-ratio: 1;
 }
 
 .display img{
   background-size: cover;
-  height: 500px;
-  width: 650px;
+  height: 300px;
+  width: 350px;
   border-radius: 14px;
+  margin-top: 15%;
 }
 
 .content {
@@ -56,6 +58,16 @@
     line-height: 40px;
     max-width: 570px;
   }
+
+  
+  .display img{
+    background-size: cover;
+    height: 500px;
+    width: 650px;
+    border-radius: 14px;
+    margin-top: 0%;
+  }
+
 }
 
 @media (min-width: 900px) {
