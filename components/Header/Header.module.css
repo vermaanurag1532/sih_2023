@@ -85,6 +85,10 @@
     justify-content: space-between;
   }
 
+  .links{
+    color: black;
+  }
+
   .logo {
     padding: 0;
   }
@@ -114,7 +118,6 @@
     -webkit-clip-path: circle(50px at 90% -10%);
     transition: all 2s ease;
     pointer-events: none;
-    background: #fff;
     box-shadow: -3px 0px 11px 0px rgba(0, 0, 0, 0.25);
     padding-bottom: 20px;
     border-bottom-left-radius: 15px;
