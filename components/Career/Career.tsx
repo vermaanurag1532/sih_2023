@@ -84,7 +84,7 @@ const Goals = () => {
         </center>
       </h1>
         <center>
-      <iframe className={classes.projectVideo} width="560" height="315" src="https://www.youtube.com/embed/r-q5V6LDxEY?si=gkAYaNnMsHAn3CpW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe className={classes.projectVideo} width="560" height="315" src="https://www.youtube.com/embed/r-q5V6LDxEY?si=gkAYaNnMsHAn3CpW" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
       </center>
       </div>
     </section>
