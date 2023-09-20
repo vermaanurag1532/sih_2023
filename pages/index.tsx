@@ -5,7 +5,7 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>While</title>
+        <title>Tricycle Bin</title>
       </Head>
       <Herobox />
       <About />
