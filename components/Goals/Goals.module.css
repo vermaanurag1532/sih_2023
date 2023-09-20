@@ -80,6 +80,8 @@
 
 .projectVideo{
   border-radius: 14px;
+  height: 250px;
+  width: 350px;
 }
 
 @media (min-width: 600px) {
@@ -103,5 +105,11 @@
   }
   .cardcontainer{
     margin: 25px;
+  }
+
+  .projectVideo{
+    border-radius: 14px;
+    width: 600px;
+     height: 375px;
   }
 }

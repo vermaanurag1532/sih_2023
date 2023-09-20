@@ -1,10 +1,24 @@
 .footer{
-    background: rgb(49, 49, 49);
+   background: rgb(49, 49, 49);
    background: linear-gradient(90deg, rgb(53, 53, 53) 0%, rgb(89, 89, 90) 35%, rgb(98, 99, 99) 100%);
-   border-top-left-radius: 200px;
-   border-top-right-radius: 200px;
+   border-top-left-radius: 70px;
+   border-top-right-radius: 70px;
+   margin-top: 10%;
 }
 
 .footer img{
-    height: 300px;
+    height: 150px;
+}
+
+@media (min-width: 600px) {
+    .footer{
+        background: rgb(49, 49, 49);
+        background: linear-gradient(90deg, rgb(53, 53, 53) 0%, rgb(89, 89, 90) 35%, rgb(98, 99, 99) 100%);
+        border-top-left-radius: 200px;
+        border-top-right-radius: 200px;
+     }
+
+     .footer img{
+        height: 300px;
+    }
 }
