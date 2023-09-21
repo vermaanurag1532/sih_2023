@@ -8,7 +8,7 @@ const Herobox = () => {
           Simplify<span className={classes.gradient}> Waste</span>, Amplify <span className="gradient">Green :</span>
         </h1>
         <p className={classes.subtext}>
-          Our Tricycle Bin Knows the Difference.
+          Our Bin Knows the Difference.
         </p>
       </div>
       <div className={classes.display} data-aos="fade-left">

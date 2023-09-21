@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <nav className={classes.nav}>
       <Link className={classes.logo} href="/" >
-        <img src="/assets/sihlogo.png" alt="While logo" />
+        <img src="/assets/sih6.png" alt="While logo" />
       </Link>
       <div
         className={classes.hamburger}

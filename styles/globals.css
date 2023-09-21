@@ -14,7 +14,7 @@ body {
   font-style: normal;
   overflow-x: hidden;
   font-weight: 500;
-  color: #fff;
+  color: #fff; 
   background: rgb(10,10,10);
   background: linear-gradient(90deg, rgba(10,10,10,1) 0%, rgba(50,50,51,1) 35%, rgba(49,50,50,1) 100%);
 }
