@@ -5,7 +5,7 @@ const Herobox = () => {
     <section className={classes.section} >
       <div className={classes.content} data-aos="fade-right">
         <h1 className={classes.heading}>
-          Simplify<span className={classes.gradient}> Waste</span>, Amplify <span className="gradient">Green :</span>
+          Simplify<span className={classes.gradient}> Waste</span>, Amplify <span className="gradient">Green </span>
         </h1>
         <p className={classes.subtext}>
           Our Bin Knows the Difference.

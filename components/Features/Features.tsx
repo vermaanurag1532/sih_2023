@@ -7,7 +7,7 @@ const Features = () => {
   return (
     <section className={classes.section} id="features">
       <div className={classes.main}>
-        <h1 className={clsx(classes.heading, 'gradient')}>Features</h1>
+        <h1 className={clsx(classes.heading, 'gradient')}>Applications</h1>
         {features.map((data, index) => (
           <div className={classes.box} key={index}>
             <div
