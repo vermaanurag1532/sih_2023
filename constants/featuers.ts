@@ -3,7 +3,7 @@ export const features = [
     img: '/assets/feature1.svg',
     title: 'Household Recycling',
     points: [
-      'n homes, it can encourage proper waste disposal by automatically',
+      'In homes, it can encourage proper waste disposal by automatically',
       "sorting kitchen waste (biodegradable) from recyclables (non-biodegradable),",
       'making recycling more convenient',
     ],

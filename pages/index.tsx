@@ -1,4 +1,4 @@
-import { Herobox, Stats, Goals, About, Features } from '@/components';
+import { Herobox, Stats, Goals, About, Features , Valide , Project} from '@/components';
 import Head from 'next/head';
 
 const index = () => {
@@ -9,8 +9,10 @@ const index = () => {
       </Head>
       <Herobox />
       <About />
+      <Valide />
       <Features />
       <Goals />
+      <Project />
     </>
   );
 };

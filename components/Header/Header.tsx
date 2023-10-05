@@ -44,6 +44,11 @@ const Header = () => {
           </Link>
         </li>
         <li className={clsx(toggle ? classes.fade : '')}>
+          <Link className={classes.links} href="/#project" onClick={() => setToogle(!true)}>
+           Project
+          </Link>
+        </li>
+        <li className={clsx(toggle ? classes.fade : '')}>
           <Link className={classes.joinbtn} href="/career" onClick={() => setToogle(!true)}>
             Team
           </Link>
