@@ -29,11 +29,11 @@ const Features = () => {
         .then((data: any) => data.json())
         .then((res: any) => {
           const val1 =
-            parseInt(res.documents[0].fields.distance.integerValue) || 0;
+            parseFloat(res.documents[0].fields.distance.integerValue) || 0;
           const val2 =
-            parseInt(res.documents[1].fields.distance.integerValue) || 0;
+            parseFloat(res.documents[1].fields.distance.integerValue) || 0;
           const val3 =
-            parseInt(res.documents[2].fields.distance.integerValue) || 0;
+            parseFloat(res.documents[2].fields.distance.integerValue) || 0;
 
           setDustbinData({
             d1: val1,
@@ -59,7 +59,7 @@ const Features = () => {
             data={[
               ["Type", "Level"],
               ["Biodegradable", dustbinData.d1],
-              ["NonNiodegradable", dustbinData.d2],
+              ["Non-Biodegradable", dustbinData.d2],
               ["Undetected", dustbinData.d3],
             ]}
             options={options}
