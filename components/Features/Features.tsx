@@ -57,7 +57,7 @@ const Features = () => {
   return (
     <section className={classes.section} id="features">
       <div className={classes.main}>
-        <h1 className={clsx(classes.heading, "gradient")}>Applications</h1>
+        <h1 className={clsx(classes.heading, "gradient")}>Bin Status</h1>
         <div className={classes.chartmain}>
           <Chart
             className={classes.chart}
@@ -66,9 +66,9 @@ const Features = () => {
             height="400px"
             data={[
               ["Type", "Level"],
-              ["Biodegradable", dustbinData.d1],
+              ["Undetected", dustbinData.d1],
               ["Non-Biodegradable", dustbinData.d2],
-              ["Undetected", dustbinData.d3],
+              ["Biodegradable", dustbinData.d3],
             ]}
             options={options}
           />
