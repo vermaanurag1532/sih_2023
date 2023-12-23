@@ -29,11 +29,19 @@ const Features = () => {
         .then((data: any) => data.json())
         .then((res: any) => {
           const val1 =
-            parseFloat(res.documents[0].fields.distance.integerValue) || 0;
+            parseFloat(res.documents[0].fields.distance.doubleValue) ||
+            parseFloat(res.documents[0].fields.distance.integerValue) ||
+            0;
           const val2 =
-            parseFloat(res.documents[1].fields.distance.integerValue) || 0;
+            parseFloat(res.documents[1].fields.distance.doubleValue) ||
+            parseFloat(res.documents[1].fields.distance.integerValue) ||
+            0;
           const val3 =
-            parseFloat(res.documents[2].fields.distance.integerValue) || 0;
+            parseFloat(res.documents[2].fields.distance.doubleValue) ||
+            parseFloat(res.documents[2].fields.distance.integerValue) ||
+            0;
+
+          console.log(res.documents);
 
           setDustbinData({
             d1: val1,
